@@ -5,7 +5,7 @@ plugins {
     kotlin("jvm") version "2.0.21"
     kotlin("plugin.allopen") version "2.0.21"
     kotlin("plugin.serialization") version "2.0.21"
-    id("io.quarkus") version "3.16.2"
+    id("io.quarkus") version "3.17.0"
 }
 
 repositories {
@@ -15,7 +15,7 @@ repositories {
 }
 
 dependencies {
-    implementation(enforcedPlatform("io.quarkus.platform:quarkus-bom:3.16.2"))
+    implementation(enforcedPlatform("io.quarkus.platform:quarkus-bom:3.17.0"))
     implementation("io.quarkus:quarkus-rest")
     implementation("io.quarkus:quarkus-config-yaml")
     implementation("io.quarkus:quarkus-kotlin")
